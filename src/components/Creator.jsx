@@ -8,7 +8,7 @@ function Creator(props){
       <div className="row">
       <div className = "col-md-4">
         <h5>{props.quote}</h5>
-        <p>{props.name}, {prop.job}</p>
+        <p>{props.name}, {props.job}</p>
 
       </div>      
       </div>

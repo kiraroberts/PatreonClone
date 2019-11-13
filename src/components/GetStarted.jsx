@@ -6,8 +6,8 @@ function GetStarted(){
     <div>
       <form>
         <input type="text"
-        id='names'
-        placeholder='Name' />
+          id='names'
+          placeholder='Name' />
       </form>
     </div>
   );

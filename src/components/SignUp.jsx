@@ -6,7 +6,7 @@ function SignUp(){
     <div>
       <h1>Create on your own terms</h1>
       <h5>Lorem ipsum dolor si amet</h5>
-      <Link to="/signyourself">Sign Up</Link>
+      <Link to="/">Home</Link> | <Link to="/signyourself">Sign Up</Link>
     </div>
   );
 }

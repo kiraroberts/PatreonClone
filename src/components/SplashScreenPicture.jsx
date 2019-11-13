@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Image(){
+function SplashScreenPicture(){
   return(
     <div>
       <img src= ""></img>
@@ -8,4 +8,4 @@ function Image(){
   );
 }
 
-export default Image;
+export default SplashScreenPicture;
