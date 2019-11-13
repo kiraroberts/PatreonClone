@@ -9,13 +9,10 @@ import { Switch, Route } from 'react-router-dom';
 
 function App(){
   return (
-    <div>
+    <div className="container">
       <SignUp />
-      
-      <Creator/>
-      <CreatorCarousel />
       <Switch>
-        <Route exact path='/' component={SignUp} />
+        <Route exact path='/' component={CreatorCarousel} />
         <Route path='/signyourself' component={GetStarted} />
       </Switch>
     </div>

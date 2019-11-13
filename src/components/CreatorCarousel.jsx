@@ -2,39 +2,38 @@ import React from 'react';
 import Creator from './Creator';
 
 
-var masterList = [
+var masterCreatorCarousel = [
   {
     quote: 'Lorem ipsum si amet dolor',
     name: 'Lorem ipsum',
-    job: 'This is my job title',
-    image: 'Image'
+    job: 'This is my job title'
   },
   {
     quote: 'Lorem ipsum si amet dolor',
     name: 'Lorem ipsum',
-    job: 'This is my job title',
-    image: 'Image'
+    job: 'This is my job title'
   },
   {
     quote: 'Lorem ipsum si amet dolor',
     name: 'Lorem ipsum',
-    job: 'This is my job title',
-    image: 'Image'
+    job: 'This is my job title'
   }
 ];
 
-function List(){
+function CreatorCarousel(){
   return(
     <div>
-      {masterList.map((list, index) =>
-      <Creator quote={list.quote}
-        name={list.name}
-        job={list.job}
-        image={list.image}
-        key={index}/>
-      )}
+      <h3>In the words of our creators</h3>
+      <div className="row">
+        {masterCreatorCarousel.map((creator, index) =>
+          <Creator quote={creator.quote}
+            name={creator.name}
+            job={creator.job}
+            key={index}/>
+        )}
+      </div>
     </div>
   );
 }
 
-export default List;
+export default CreatorCarousel;
