@@ -7,9 +7,10 @@ import GetStarted from './GetStarted';
 import { Switch, Route } from 'react-router-dom';
 
 
+
 function App(){
   return (
-    <div>
+    <div className="bg">
       <NavBar />
       <div className="container">
         <SignUp />
