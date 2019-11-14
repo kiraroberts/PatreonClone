@@ -1,9 +1,10 @@
 import React from 'react';
+import './GetStarted.css';
 
 
 function GetStarted(){
   return(
-    <div>
+    <div id="signUp">
       <h4>Sign up</h4>
       <form>
         <input type="text"

@@ -1,0 +1,6 @@
+.creators div {
+  border: solid 1px lightgray;
+  border-radius: 25px;
+  padding: 25px;
+  width: 100%;
+}
